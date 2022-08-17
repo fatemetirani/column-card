@@ -1,0 +1,99 @@
+* {
+  margin: auto;
+  box-sizing: border-box;
+}
+.body {
+  display: flex;
+  justify-content: center;
+}
+img {
+  width: 80px;
+  margin: 40px 0 0px 48px;
+}
+h1 {
+  margin: 35px 0 45px 48px;
+  font-size: 50px;
+  color: #f2f2f2;
+  font-family: 'static';
+  text-transform: uppercase;
+}
+p {
+  width: 212px;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.74);
+  font-family: 'myfont' !important ;
+  line-height: 25px;
+  margin-left: 48px;
+}
+section{
+  height: 500px;
+  margin: 0;
+  width: 307px;
+  float: left;
+  border-radius: 10px;
+}
+.first-section {
+  background-color: #e28625;
+}
+.second-section {
+  background-color: #006971;
+}
+.third-section {
+  background-color: #004140;
+}
+button {
+  border: none;
+  text-align: center;
+  border-radius: 25px;
+  width: 148px;
+  font-size: 15px;
+  height: 48px;
+  margin: 40px 0 45px 48px;
+  font-family: "myfont" !important ;
+  text-transform: capitalize;
+}
+.first-button {
+  color: #e28625;
+}
+.second-button {
+  color: #006971;
+}
+.third-button {
+  color: #004140;
+}
+button:hover {
+  background-color: rgba(19, 17, 18, 0.055);
+  cursor: pointer;
+  color: #fff;
+  border: 1px solid #fff;
+}
+@media only screen and (max-width: 375px) {
+  .first-section,
+  .second-section,
+  .third-section {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  .body {
+    display: block;
+  }
+  .second-section,
+  .third-section {
+    margin-top: -5px;
+  }
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@font-face {
+  font-family: 'myfont';
+  src: url(Lexend_Deca/static/LexendDeca-Regular.ttf);
+}
+@font-face {
+  font-family: 'static';
+  src: url(static/BigShouldersDisplay-Bold.ttf);
+}
