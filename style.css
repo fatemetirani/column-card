@@ -27,7 +27,7 @@ p {
 }
 section{
   height: 500px;
-  margin-left: -14px;
+  margin-left:50px -14px 0 0;
   width: 307px;
   float: left;
   border-radius: 10px;
@@ -72,9 +72,8 @@ button:hover {
   .second-section,
   .third-section {
     width: 100%;  
-    margin-top: -7px;
+    margin-top: -7px 0 0 0;
     border-radius: 10px 10px 0 0;
-     margin-left: 14px;
   }
   .body {
     display: block;
