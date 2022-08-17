@@ -27,7 +27,7 @@ p {
 }
 section{
   height: 500px;
-  margin: 0;
+  margin-left: -14px;
   width: 307px;
   float: left;
   border-radius: 10px;
@@ -71,15 +71,12 @@ button:hover {
   .first-section,
   .second-section,
   .third-section {
-    width: 100%;
+    width: 100%;  
+    margin-top: -5px;
     border-radius: 10px 10px 0 0;
   }
   .body {
     display: block;
-  }
-  .second-section,
-  .third-section {
-    margin-top: -5px;
   }
 }
 .attribution {
