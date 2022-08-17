@@ -29,7 +29,6 @@ section{
   height: 500px;
   margin-left:50px -14px 0 0;
   width: 307px;
-  float: left;
   border-radius: 10px;
 }
 .first-section {
@@ -72,7 +71,8 @@ button:hover {
   .second-section,
   .third-section {
     width: 100%;  
-    margin-top: -7px 0 0 0;
+    margin-top: -7px;
+    margin:0;
     border-radius: 10px 10px 0 0;
   }
   .body {
