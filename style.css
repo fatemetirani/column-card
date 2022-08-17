@@ -74,6 +74,7 @@ button:hover {
     width: 100%;  
     margin-top: -7px;
     border-radius: 10px 10px 0 0;
+     margin-left: 14px;
   }
   .body {
     display: block;
